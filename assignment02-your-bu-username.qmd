@@ -1,5 +1,5 @@
 ---
-title: In Class Lab 01
+title: Assignment 02
 author:
   - name: Norah Jones
     affiliations:

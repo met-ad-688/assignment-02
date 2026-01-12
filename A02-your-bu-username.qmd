@@ -17,18 +17,17 @@ format:
 date-modified: today
 date-format: long
 execute:
-  echo: false
-  eval: false
+  echo: true
+  eval: true
   freeze: auto
 ---
 
 
 ## System Information {.unnumbered}
 
-
 ```{python}
-#| eval: false
-#| echo: true
+# | eval: true
+# | echo: true
 import platform
 import psutil
 
@@ -42,3 +41,5 @@ print("Total Memory (MB):", round(mem.total / (1024**2), 2))
 print("Available Memory (MB):", round(mem.available / (1024**2), 2))
 ```
 
+
+## Start your assignment here
